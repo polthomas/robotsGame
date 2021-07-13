@@ -29,7 +29,7 @@ class Robot(GameItem):
             self.shoot("right")
 
     def shoot(self, direction): #adds the new instance of a bullet to the bullet array
-        self.bullets.append(Bullet(self.xpos, self.ypos, direction))
+        self.bullets.append(Bullet(self.xpos, self.ypos, " o ", direction))
 
 
 
