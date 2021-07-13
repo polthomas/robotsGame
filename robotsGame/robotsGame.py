@@ -7,9 +7,6 @@ from gameItem import GameItem
 global field
 field = []
 
-global bullets
-bullets = []
-
 def refreshField(robot1,robot2): #redraws the playing field with all items in their updated positions
   field = [["   ","   ","   ","   ","   ","   ","   ","   ","   ","   "],
            ["   ","   ","   ","   ","   ","   ","   ","   ","   ","   "],
