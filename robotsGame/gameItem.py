@@ -3,6 +3,7 @@ class GameItem(object):
         self.xpos = xpos
         self.ypos = ypos
         self.look = look
+        self.bullets = []
 
     #def drawOnBoard(self): #puts the item into the correct position in the field 2D array
         #not going to work simply, better to just draw them all in the same refresh field function in the 
