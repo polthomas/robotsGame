@@ -1,5 +1,5 @@
 class GameItem(object):
-    def __init__(self, xpos, ypos, look): #all items in on the game field have (x,y) and a look they are shown with
+    def __init__(self, xpos, ypos, look, bullets): #all items in on the game field have (x,y) and a look they are shown with
         self.xpos = xpos
         self.ypos = ypos
         self.look = look
