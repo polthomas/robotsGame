@@ -24,7 +24,7 @@ def refreshField(robot1,robot2): #redraws the playing field with all items in th
 
  # robot1.drawOnBoard()
  # robot2.drawOnBoard()
-  field[robot1.ypos][robot1.xpos] = " R " #putting robots in their positions
+  field[robot1.ypos][robot1.xpos] = " P " #putting robots in their positions
   field[robot2.ypos][robot2.xpos] = " M "
 
   for bul in bullets:
