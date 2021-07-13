@@ -3,12 +3,11 @@ from gameItem import GameItem
 
 class Robot(GameItem):
     def __init__(self, name, ammo, lives, xpos, ypos, controls, look, bullets):
-        super().__init__(xpos, ypos, look)
+        super().__init__(xpos, ypos, look, bullets)
         self.name = name
         self.ammo = ammo
         self.lives = lives
         self.controls = controls
-        self.bullets = bullets
 
     def beControlled(self): #robot moving when movement keys are pressed
         if keyboard.is_pressed(self.controls[0]):
